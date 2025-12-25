@@ -4,17 +4,15 @@
 
 This repository contains the final undergraduate capstone project, which addressed network security by employing a two-pronged approach to Distributed Denial of Service (DDoS) detection. The first phase involved traditional network forensics using specialized tools, while the second phase focused on developing a machine learning model for automated, real-time threat identification. This work demonstrates proficiency in both investigative analysis and predictive security modeling.
 
-## Core Objectives (The 'Why')
+## Core Objectives 
 
 This project highlights critical skills in proactive threat identification and incident response planning:
 
 * Threat Identification & Forensics: Gained practical experience in using specialized tools (e.g., Wireshark) to analyze packet capture (PCAP) files, manually identify attack signatures, and conduct deep network protocol inspection.
 
-* Automated Defense Modeling: Developed a supervised machine learning classifier capable of distinguishing between normal network traffic and known DDoS attack vectors (e.g., volumetric or protocol-based attacks).
+* Automated Defense Modeling: Developed a supervised machine learning classifier capable of distinguishing between normal network traffic and known DDoS attack vectors.
 
-* Security Tool Integration: Demonstrated the ability to extract meaningful features from raw network data (PCAP) and prepare them for analysis by a predictive model.
-
-## Technical Scope & Components (The 'How')
+## Technical Scope & Components 
 
 The project utilized a combined technical and analytical stack:
 
@@ -24,7 +22,7 @@ Manual analysis of PCAP files using Wireshark to establish indicators of comprom
 ### Phase 2: ML Development
 Implementation of a classification algorithm (e.g., Decision Tree or Random Forest) in Python to predict attack presence.
 
-* Language: Python (for ML modeling and feature extraction).
+* Language: Python.
 
 * Data Source: Simulated network traffic data (.pcap files) and extracted csv files from Kaggle.
 
@@ -40,6 +38,4 @@ The repository is structured to clearly separate the analysis and machine learni
 
 * Dual-Threat Analysis: Demonstrated the ability to tackle security challenges using both manual investigative techniques and modern data science methodologies.
 
-* Feature Engineering: Developed expertise in transforming raw network metadata (packet size, frequency, source/destination counts) into meaningful features for ML classification.
-
-* Incident Response Simulation: Gained experience in the initial phases of incident response by rapidly identifying and characterizing a network attack.
+* Incident Response Simulation: Gained experience in the initial phases of incident response by identifying and characterizing a network attack.
